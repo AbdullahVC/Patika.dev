@@ -1,0 +1,162 @@
+/* Genel Stil */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Başlık Stili */
+.title {
+  color: #8a2be2; /* Mor renk */
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+/* Navigasyon Menüsü */
+nav {
+  background-color: #8a2be2; /* Mor renk */
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* İçerik Alanı */
+.content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #e32636; /* Kırmızı renk */
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #daa520; /* Altın renk */
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Müzik Aletleri Listesi */
+.instruments {
+  list-style-position: inside;
+  margin: 20px 0;
+}
+
+.instruments li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Buton Stili */
+.button {
+  display: inline-block;
+  background-color: #8a2be2;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7023be;
+}
+
+/* Ürünler Sayfası */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  padding: 10px;
+  margin: 0;
+}
+
+.price {
+  color: #e32636;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* Hakkımızda Sayfası */
+.content ul {
+  list-style-position: inside;
+  margin: 15px 0;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content ul li {
+  margin: 8px 0;
+}
